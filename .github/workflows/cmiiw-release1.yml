@@ -29,7 +29,7 @@ jobs:
         with:
           arch: arm64
           compiler: aosp-clang/main/clang-r510928/binutils
-          defconfig: rosy-perf_defconfig
+          defconfig: rosy-atiga_defconfig
           image: Image.gz-dtb
 
       - name: Release build
